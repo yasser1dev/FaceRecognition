@@ -1,0 +1,3 @@
+faces/picture_name.jpg;firstName;lasttName;
+
+
