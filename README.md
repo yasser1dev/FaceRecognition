@@ -1,6 +1,6 @@
 # Face Detection and Recognition
 <p align="center">
-  <img src="https://media-exp2.licdn.com/dms/image/C4D12AQG8iqV1IrnLaw/article-cover_image-shrink_720_1280/0?e=1585180800&v=beta&t=Nf_WI13HsIgDdMRi5hGEuDvN_YLezBZ2I7mOx2Ip6B4" height="200" width="500" title="hover text">
+  <img src="https://media-exp2.licdn.com/dms/image/C4D12AQG8iqV1IrnLaw/article-cover_image-shrink_720_1280/0?e=1585180800&v=beta&t=Nf_WI13HsIgDdMRi5hGEuDvN_YLezBZ2I7mOx2Ip6B4" height="350" width="500" title="hover text">
 </p>
 
 Try to download `Supernatural` with its 316 episodes from EgyBest or any website, that's a lot of clicks and ads :( .
