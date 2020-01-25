@@ -1,0 +1,1 @@
+tcp://127.0.0.1:3306;loginDB;PasswordDB;DB_name;0;shape_predictor_68_face_landmarks.dat;
