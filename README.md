@@ -3,20 +3,20 @@
   <img src="https://media-exp2.licdn.com/dms/image/C4D12AQG8iqV1IrnLaw/article-cover_image-shrink_720_1280/0?e=1585180800&v=beta&t=Nf_WI13HsIgDdMRi5hGEuDvN_YLezBZ2I7mOx2Ip6B4" height="350" width="500" title="hover text">
 </p>
 
-Try to download `Supernatural` with its 316 episodes from EgyBest or any website, that's a lot of clicks and ads :( .
-
-**EgyBest Downloader** gives you the possibility to download any movie or a Tv series from 
-EgyBest without the annoying ads .
-* ***Currently working on a Gui version*** 
+If you want learn about the theorical part, you can read my [Article](https://www.linkedin.com/pulse/face-detection-recognition-yasser-chihab/) in order to have an idea about what's going on here !!!!
 
 ## Important !!
+
 * The goal from this programme is to detect and recognize persons in front of a camera .
+
 * FaceDataExtractor folder contains the source code of the program that extracts face data and store at the database by having as an input data.txt file.
+
 * FaceDetectionRecognition folder contains the source code of the program that detects and recognize faces that we have already stored their face data.
 
 
 .
 ## Prerequisites
+
 In order to use this program we need a stuck of prerequisites.
 * We need [Visual Studio](https://visualstudio.microsoft.com/fr/) to compile the project.
 
@@ -27,6 +27,8 @@ In order to use this program we need a stuck of prerequisites.
 * We need to download [OpenCV](https://opencv.org/) library and build using Cmake.
 
 * We need to download [SQL connectors](https://dev.mysql.com/doc/connector-cpp/1.1/en/connector-cpp-downloading.html) in order to achieve the connection to the Database.
+
+* We need to download and install [boost c++](https://www.boost.org/)
 
 
 ## Configuration
