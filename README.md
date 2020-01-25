@@ -10,34 +10,29 @@ EgyBest without the annoying ads .
 * ***Currently working on a Gui version*** 
 
 ## Important !!
-* The goal from this programme is to gather download links for you .
-* You'll find the downloads link on a local file with the following format `type-name-year.txt`  in the "LinkSaves" folder.
+* The goal from this programme is to detect and recognize persons in front of a camera .
+* FaceDataExtractor folder contains the source code of the program that extracts face data and store at the database by having as an input data.txt file.
+* FaceDetectionRecognition folder contains the source code of the program that detects and recognize faces that we have already stored their face data.
 
-* You can add the links automatically to Internet download manager (IDM) and download them ,but if you don't like using 
-IDM or don't have it installed or activated(see Prerequisites for a solution),
-you can use the built in command line downloader or you can copy all the links and use `add batch download from clipboard` 
-on your favorite download manager .
 
 .
 ## Prerequisites
-* To activate expired versions of IDM use [idm-trial-reset](https://github.com/J2TeaM/idm-trial-reset/releases/tag/v1.0.0) 
-tool to reset the 30 days free trial .
+In order to use this program we need a stuck of prerequisites.
+* We need [Visual Studio](https://visualstudio.microsoft.com/fr/) to compile the project.
 
-* For the IDM functionalities you'll need IDM [Internet download manager](https://www.internetdownloadmanager.com/download.html)
- installed on the default directory .
-```
-C:\Program Files (x86)\Internet Download Manager
- ```
- or you can change the path inside the code .
+* We need to download and install [Cmake](cmake.org).
 
-* You'll need python installed on a windows machine .
-* Latest version of google chrome (currently supporting chrome only).
+* We need to download [Dlib](http://dlib.net/) library and build using Cmake as It's explained in the official website.
 
-## Installing
+* We need to download [OpenCV](https://opencv.org/) library and build using Cmake.
 
-Clone the directory on your local machine  
-```
-git clone https://github.com/aymannc/EgyBest-Downloader
+* We need to download [SQL connectors](https://dev.mysql.com/doc/connector-cpp/1.1/en/connector-cpp-downloading.html) in order to achieve the connection to the Database.
+
+
+## Configuration
+
+test```
+test
  ```
 After cloning the project,install the "requirements.txt" on your virtualenv
 
