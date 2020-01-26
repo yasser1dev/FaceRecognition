@@ -68,4 +68,12 @@ After that you have stored the data of the persons that you want to recognize, y
 
 ```
 
+## Authors
+
+* **Yasser Chihab**- [yasser1dev](https://github.com/yasser1dev)
+
+## License
+
+This project is licensed under the MIT License 
+
  
