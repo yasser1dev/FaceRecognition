@@ -41,14 +41,31 @@ In order to use this program we need a stuck of prerequisites.
 
 ## How to use it
 
-First of all if you want to recognize a person, you have to get his data face, that's why you need to work with the FaceDataExtractore at the first time :
-* Put a picture of the person in <p>FaceDataExtractor->Release->faces</p>
-* Update the <p>data.txt</p> file by adding a line containing information about the person like that
+First of all if you want to recognize a person, you have to get his data face, that's why you need to work with the FaceDataExtractore at the first time **(I assume that you have already created the database with the schema that I provided above)**:
+* Put a picture of the person in the following folder 
+```
+FaceDataExtractor->Release->faces
+
+```
+* Update the **data.txt** file by adding a line containing information about the person like that
 ```
 faces/picture_name.jpg;firstName;lasttName;
 
 ```
+* Update the **config.txt** file with your database server information
 
+* Run the program with the following commande 
+``
+/>dataExtractor.exe  data.txt
 
+``
+
+After that you have stored the data of the persons that you want to recognize, you can do it now !!!
+
+* Go the the folder that contains your program and run it like that ( don't forget to update the **config.txt** file )
+``
+/>faceRecognition.exe  config.txt
+
+``
 
  
