@@ -55,17 +55,17 @@ faces/picture_name.jpg;firstName;lasttName;
 * Update the **config.txt** file with your database server information
 
 * Run the program with the following commande 
-``
+```
 />dataExtractor.exe  data.txt
 
-``
+```
 
 After that you have stored the data of the persons that you want to recognize, you can do it now !!!
 
 * Go the the folder that contains your program and run it like that ( don't forget to update the **config.txt** file )
-``
+```
 />faceRecognition.exe  config.txt
 
-``
+```
 
  
