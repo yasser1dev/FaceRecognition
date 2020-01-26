@@ -33,37 +33,22 @@ In order to use this program we need a stuck of prerequisites.
 
 ## Configuration
 
-test```
-test
- ```
-After cloning the project,install the "requirements.txt" on your virtualenv
+* Create a project on Visual Studio 
+* After building Dlib with Cmake as I mentionned before, link it with your project ([That can helps you](http://xiaoxumeng.com/install-dlib-on-visual-studio-2015/))
+* After building OpenCV with Cmake as I mentionned before, link it with your project ([That can helps you](https://www.deciphertechnic.com/install-opencv-with-visual-studio/))
+* Link Sql connectors too (Figure it by your own XD)
+* Link the boost c++ library too (it's easy to do it XD)
+
+## How to use it
+
+First of all if you want to recognize a person, you have to get his data face, that's why you need to work with the FaceDataExtractore at the first time :
+* Put a picture of the person in <p>FaceDataExtractor->Release->faces</p>
+* Update the <p>data.txt</p> file by adding a line containing information about the person like that
+```
+faces/picture_name.jpg;firstName;lasttName;
 
 ```
-pip install -r requirements.txt
-```
-## Running the programme
-* Open the cmd on the containing folder and use 
-```
-(myenv) D:\EgyBest_1.0> python egybest.py
-```
-## Built With
 
-* [Beautifulsoup4](https://www.crummy.com/software/BeautifulSoup/) - Python library designed for quick turnaround projects like screen-scraping
-* [Selenium](https://selenium.dev/) - It's library used for browser automation
-* [pySmartDL](https://github.com/iTaybb/pySmartDL) - It's a python download manager
 
-## Authors
 
-* **Nait Cherif Ayman**- [aymannc](https://github.com/aymannc)
-
-## License
-
-This project is licensed under the MIT License 
-
-## Acknowledgments
-
-* Thank you EgyBest for the hard work you provide
-
-## Q & A
-
-soon
+ 
