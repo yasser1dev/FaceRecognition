@@ -3,13 +3,13 @@
   <img src="https://media-exp2.licdn.com/dms/image/C4D12AQG8iqV1IrnLaw/article-cover_image-shrink_720_1280/0?e=1585180800&v=beta&t=Nf_WI13HsIgDdMRi5hGEuDvN_YLezBZ2I7mOx2Ip6B4" height="350" width="500" title="hover text">
 </p>
 
-If you want learn about the theorical part, you can read my [Article](https://www.linkedin.com/pulse/face-detection-recognition-yasser-chihab/) in order to have an idea about what's going on here !!!!
+If you want to learn about the theorical part, you can read my [Article](https://www.linkedin.com/pulse/face-detection-recognition-yasser-chihab/) in order to have an idea about what's going on here !!!!
 
 ## Important !!
 
 * The goal from this programme is to detect and recognize persons in front of a camera .
 
-* FaceDataExtractor folder contains the source code of the program that extracts face data and store at the database by having as an input data.txt file.
+* FaceDataExtractor folder contains the source code of the program that extracts face data and store it at the database by having as an input data.txt file.
 
 * FaceDetectionRecognition folder contains the source code of the program that detects and recognize faces that we have already stored their face data.
 
@@ -22,11 +22,11 @@ In order to use this program we need a stuck of prerequisites.
 
 * We need to download and install [Cmake](cmake.org).
 
-* We need to download [Dlib](http://dlib.net/) library and build using Cmake as It's explained in the official website.
+* We need to download [Dlib](http://dlib.net/) library and build It using Cmake as It's explained in the official website.
 
-* We need to download [OpenCV](https://opencv.org/) library and build using Cmake.
+* We need to download [OpenCV](https://opencv.org/) library and build It using Cmake.
 
-* We need to download [SQL connectors](https://dev.mysql.com/doc/connector-cpp/1.1/en/connector-cpp-downloading.html) in order to achieve the connection to the Database.
+* We need to download [SQL connectors](https://dev.mysql.com/doc/connector-cpp/1.1/en/connector-cpp-downloading.html) in order to achieve the connection with the Database server.
 
 * We need to download and install [boost c++](https://www.boost.org/)
 
@@ -34,9 +34,9 @@ In order to use this program we need a stuck of prerequisites.
 ## Configuration
 
 * Create a project on Visual Studio 
-* After building Dlib with Cmake as I mentionned before, link it with your project ([That can helps you](http://xiaoxumeng.com/install-dlib-on-visual-studio-2015/))
-* After building OpenCV with Cmake as I mentionned before, link it with your project ([That can helps you](https://www.deciphertechnic.com/install-opencv-with-visual-studio/))
-* Link Sql connectors too (Figure it by your own XD)
+* After building Dlib with Cmake as I mentionned before, link it with your project ([That can help you](http://xiaoxumeng.com/install-dlib-on-visual-studio-2015/))
+* After building OpenCV with Cmake as I mentionned before, link it with your project ([That can help you](https://www.deciphertechnic.com/install-opencv-with-visual-studio/))
+* Link Sql connectors too (Figure it out by your own XD)
 * Link the boost c++ library too (it's easy to do it XD)
 
 ## How to use it
