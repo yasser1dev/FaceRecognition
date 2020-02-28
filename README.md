@@ -3,15 +3,15 @@
   <img src="https://media-exp2.licdn.com/dms/image/C4D12AQG8iqV1IrnLaw/article-cover_image-shrink_720_1280/0?e=1585180800&v=beta&t=Nf_WI13HsIgDdMRi5hGEuDvN_YLezBZ2I7mOx2Ip6B4" height="350" width="500" title="hover text">
 </p>
 
-If you want learn about the theorical part, you can read my [Article](https://www.linkedin.com/pulse/face-detection-recognition-yasser-chihab/) in order to have an idea about what's going on here !!!!
+If you want learn about the theoritical part, you can read my [Article](https://www.linkedin.com/pulse/face-detection-recognition-yasser-chihab/) in order to have an idea about what's going on here !!!!
 
 ## Important !!
 
 * The goal from this programme is to detect and recognize persons in front of a camera .
 
-* FaceDataExtractor folder contains the source code of the program that extracts face data and store at the database by having as an input data.txt file.
+* FaceDataExtractor folder contains the source code of the program that extracts face data and store it in the database by having as an input data.txt file.
 
-* FaceDetectionRecognition folder contains the source code of the program that detects and recognize faces that we have already stored their face data.
+* FaceDetectionRecognition folder contains the source code of the program that detects and recognizes faces that had their data already stored.
 
 
 .
