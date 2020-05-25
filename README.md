@@ -1,6 +1,6 @@
 # Face Detection and Recognition
 <p align="center">
-  <img src="https://media-exp2.licdn.com/dms/image/C4D12AQG8iqV1IrnLaw/article-cover_image-shrink_720_1280/0?e=1585180800&v=beta&t=Nf_WI13HsIgDdMRi5hGEuDvN_YLezBZ2I7mOx2Ip6B4" height="350" width="500" title="hover text">
+  <img src="https://sunartek.com/wp-content/uploads/2019/11/Facial-Recognition-System_new.png" height="350" width="500" title="hover text">
 </p>
 
 If you want to learn about the theorical part, you can read my [Article](https://www.linkedin.com/pulse/face-detection-recognition-yasser-chihab/) in order to have an idea about what's going on here !!!!
